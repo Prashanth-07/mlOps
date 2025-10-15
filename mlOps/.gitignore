@@ -87,3 +87,8 @@ target/
 
 # Mypy cache
 .mypy_cache/
+# Ignore CSV data files but track DVC metadata
+/Training_Batch_Files/*
+/Prediction_Batch_files/*
+!Training_Batch_Files/*.dvc
+!Prediction_Batch_files/*.dvc
